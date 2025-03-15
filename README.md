@@ -59,7 +59,7 @@ Where `script.js` is the JavaScript-like file you want to interpret. If no file 
 You can also run the script by piping JavaScript-like code directly into it. For example:
 
 ```bash
-echo -e "let x = 5;\nlet y = x * 2 + 3;\nconsole.log(y);" | bash interpreter.sh
+echo -e "let x = 5;\nlet y = x * 2 + 3;\nconsole.log(y);" | bash bashjs.sh
 ```
 
 This will output:
